@@ -1,0 +1,12 @@
+{
+  "builders": [
+    {
+      "type": "vmware-iso",
+      "iso_url": "http://ftp.ps.pl/pub/Linux/CentOS/6.9/isos/x86_64/CentOS-6.9-x86_64-minimal.iso",
+      "iso_checksum": "af4a1640c0c6f348c6c41f1ea9e192a2",
+      "iso_checksum_type": "md5",
+      "ssh_username": "packer",
+      "ssh_password": "packer",
+      "shutdown_command": "shutdown -P now"
+    }
+  }
