@@ -69,7 +69,7 @@ or
   sudo ln -s /usr/local/packer /usr/local/bin/packer.io
 
 
-===========================
+------------------------------
 Packer in use:
 
 base commands:
